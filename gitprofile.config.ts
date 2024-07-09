@@ -33,19 +33,19 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '15.819: Uber Marketing',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'We created a Tableau dashboard to provide value from the perspective of an Uber manager. We focused on strategic and tactical planning objectives: quarterly market share, month-over-month demand changes, and weather effects.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://media.licdn.com/dms/image/D562DAQHNLTVjDhJ0_w/profile-treasury-image-shrink_800_800/0/1720533486618?e=1721160000&v=beta&t=PvQCmpSiJuRA5irCN-22sHIW-v2O6YCly5qsv_Jupb0',
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: '15.773: ClueMaster-The LLM',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'We devised an LLM-based New York Times Crossword solver and compared various prompting techniques, achieving a maximum accuracy of 47%.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://www.dropbox.com/scl/fi/mz8f5qb2ackowk1onx1hz/ClueMaster-Img.pdf?rlkey=h0xzhqasj6vkaeznvn6qoff64&st=2pmduvpk&dl=0',
           link: 'https://example.com',
         },
       ],
@@ -90,6 +90,7 @@ const CONFIG = {
     'SQL',
     'Git',
     'DataBricks',
+    'Pycharm',
     'AWS',
     'Agile/Kanban',
     'Tableau',
@@ -97,18 +98,25 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'MIT Sloan | MFS Investment Management',
+      position: 'Capstone Project | Data Science Intern',
+      from: 'February 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Ameren',
+      position: 'Data Innovation Intern',
+      from: 'June 2021',
+      to: 'December 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Various article websites',
+      position: 'Freelance Writer',
+      from: 'January 2017',
+      to: 'Present',
+      companyLink: '',
     },
   ],
   certifications: [
@@ -121,36 +129,26 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Massachusetts Institute of Technology Sloan',
+      degree: 'Master of Business Analytics',
+      from: 'August 2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Illinois at Urbana-Champaign',
+      degree: 'Bachelor of Science in Industrial Engineering',
+      from: '2019',
+      to: '2023',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      authors: '',
+      link: '',
+      description: ''
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -172,7 +170,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
