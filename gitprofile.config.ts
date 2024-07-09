@@ -33,6 +33,22 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'MIT Sloan | Bacardi - Analytics Lab Project',
+          description:
+            'A full-semester, Analytics Lab project I worked with 3 other MIT Master of Business Analytics students. The main problem we solved was determining key demographic features that drive alcohol sales primarily using census data. We used PySpark within Databricks for data preprocessing and our final random forest model. We shared our findings with the Sr. Data Scientist and Data & Analytics team.',
+          imageUrl:
+            'https://www.dropbox.com/scl/fi/q8dgixcpng1ohclfxjygv/ALab.png?rlkey=b3g869ha0n308pgvw8c2in95u&st=rlsbaaxu&dl=0',
+          link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
+        },
+        {
+          title: 'UIUC Senior Design: Assembly Line Material Flow Improvement',
+          description:
+            'Worked on a team of four to improve the material flow on a manual assembly line for Illinois Tool Works. This involved introducing a water spider, a.k.a a material handler, which will restock workstations and break down cardboard boxes. We modeled the current state using simulation, drafted rebalance proposals, and validated them using simulation of the future state that involves water spiders.',
+          imageUrl:
+            'https://www.dropbox.com/scl/fi/hu4p5umpdye3ibktcojwm/UIUC_SR.png?rlkey=u7396lojqvoukd7qn710xlgef&st=bwoxrjt3&dl=0',
+          link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
+        },
+        {
           title: '15.819: Uber Marketing',
           description:
             'We created a Tableau dashboard to provide value from the perspective of an Uber manager. We focused on strategic and tactical planning objectives: quarterly market share, month-over-month demand changes, and weather effects.',
@@ -45,7 +61,7 @@ const CONFIG = {
           description:
             'We devised an LLM-based New York Times Crossword solver and compared various prompting techniques, achieving a maximum accuracy of 47%.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/9eg6tavge3936v1l9se2g/ClueMaster.png?rlkey=sr2vfbqt7wez2z6clugnlhctk&st=gt2xa1v2&dl=0',
+            'https://www.dropbox.com/scl/fi/9eg6tavge3936v1l9se2g/ClueMaster.png?rlkey=sr2vfbqt7wez2z6clugnlhctk&st=gt2xa1v2&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -53,15 +69,7 @@ const CONFIG = {
           description:
             'We applied various classification techniques, namely XGBoost, Random Forest, Optimal Classification Trees, and ensemble approaches to the Microsoft Malware Prediction dataset, achieving a AUC of 0.674 on a held-out portion of the labeled dataset.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/5tw9t57qn5djs2bsdqtrp/Edge.png?rlkey=jj3iccpsf1647of201yx6o9nh&st=rv014uig&dl=0',
-          link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
-        },
-        {
-          title: '15.773: ClueMaster-The LLM',
-          description:
-            'We devised an LLM-based New York Times Crossword solver and compared various prompting techniques, achieving a maximum accuracy of 47%.',
-          imageUrl:
-            'https://www.dropbox.com/scl/fi/9eg6tavge3936v1l9se2g/ClueMaster.png?rlkey=sr2vfbqt7wez2z6clugnlhctk&st=gt2xa1v2&dl=0',
+            'https://www.dropbox.com/scl/fi/5tw9t57qn5djs2bsdqtrp/Edge.png?rlkey=jj3iccpsf1647of201yx6o9nh&st=rv014uig&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -69,7 +77,7 @@ const CONFIG = {
           description:
             'We created a route optimization model for college visits with gas stops along the way. Users can provide their own list of college destinations or use the GoogeMaps API using an address.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/lztqzimwalgtu30zoriuu/Optimization.png?rlkey=l0mf95ijlczbomfqks12tbujh&st=fhdorx6x&dl=0',
+            'https://www.dropbox.com/scl/fi/vv0s9z7wvxvnxdkv1wies/Optimization.jpg?rlkey=7exucrqfxvrfda102qye3f53z&st=iefflkvh&dl=0',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -77,23 +85,7 @@ const CONFIG = {
           description:
             'Using Optimal Prescriptive Trees, we created a model to choose between passing, rushing, punting, and field goals based on field position, score, and team. Compared against a naive punt/FG 4th down strategy, we achieved an expected 18% increase in points per play.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/dmrf8zqfx425bk680t47c/MLOpt.png?rlkey=8atdkmr8q9g2v5k6tx4gindwz&st=uglmaxnt&dl=0',
-          link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
-        },
-        {
-          title: 'MIT Sloan | Bacardi - Analytics Lab Project',
-          description:
-            'A full-semester, Analytics Lab project I worked with 3 other MIT Master of Business Analytics students. The main problem we solved was determining key demographic features that drive alcohol sales primarily using census data. We used PySpark within Databricks for data preprocessing and our final random forest model. We shared our findings with the Sr. Data Scientist and Data & Analytics team.',
-          imageUrl:
-            'https://www.dropbox.com/scl/fi/q8dgixcpng1ohclfxjygv/ALab.png?rlkey=b3g869ha0n308pgvw8c2in95u&st=rlsbaaxu&dl=0',
-          link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
-        },
-        {
-          title: 'Senior Design: Assembly Line Material Flow Improvement',
-          description:
-            'Worked on a team of four to improve the material flow on a manual assembly line for Illinois Tool Works. This involved introducing a water spider, a.k.a a material handler, which will restock workstations and break down cardboard boxes. We modeled the current state using simulation, drafted rebalance proposals, and validated them using simulation of the future state that involves water spiders.',
-          imageUrl:
-            'https://www.dropbox.com/scl/fi/hu4p5umpdye3ibktcojwm/UIUC_SR.png?rlkey=u7396lojqvoukd7qn710xlgef&st=bwoxrjt3&dl=0',
+            'https://www.dropbox.com/scl/fi/vv0s9z7wvxvnxdkv1wies/Optimization.jpg?rlkey=7exucrqfxvrfda102qye3f53z&st=iefflkvh&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
       ],
