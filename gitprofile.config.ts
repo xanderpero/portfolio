@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'A full-semester, Analytics Lab project I worked with 3 other MIT Master of Business Analytics students. The main problem we solved was determining key demographic features that drive alcohol sales primarily using census data. We used PySpark within Databricks for data preprocessing and our final random forest model. We shared our findings with the Sr. Data Scientist and Data & Analytics team.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/q8dgixcpng1ohclfxjygv/ALab.png?rlkey=b3g869ha0n308pgvw8c2in95u&st=rlsbaaxu&dl=0',
+            'https://www.dropbox.com/scl/fi/q8dgixcpng1ohclfxjygv/ALab.png?rlkey=b3g869ha0n308pgvw8c2in95u&st=rlsbaaxu&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Worked on a team of four to improve the material flow on a manual assembly line for Illinois Tool Works. This involved introducing a water spider, a.k.a a material handler, which will restock workstations and break down cardboard boxes. We modeled the current state using simulation, drafted rebalance proposals, and validated them using simulation of the future state that involves water spiders.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/hu4p5umpdye3ibktcojwm/UIUC_SR.png?rlkey=u7396lojqvoukd7qn710xlgef&st=bwoxrjt3&dl=0',
+            'https://www.dropbox.com/scl/fi/hu4p5umpdye3ibktcojwm/UIUC_SR.png?rlkey=u7396lojqvoukd7qn710xlgef&st=bwoxrjt3&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -77,7 +77,7 @@ const CONFIG = {
           description:
             'We created a route optimization model for college visits with gas stops along the way. Users can provide their own list of college destinations or use the GoogeMaps API using an address.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/vv0s9z7wvxvnxdkv1wies/Optimization.jpg?rlkey=7exucrqfxvrfda102qye3f53z&st=iefflkvh&dl=0',
+            'https://www.dropbox.com/scl/fi/lztqzimwalgtu30zoriuu/Optimization.png?rlkey=l0mf95ijlczbomfqks12tbujh&st=xlvrfcbp&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
         {
@@ -85,7 +85,7 @@ const CONFIG = {
           description:
             'Using Optimal Prescriptive Trees, we created a model to choose between passing, rushing, punting, and field goals based on field position, score, and team. Compared against a naive punt/FG 4th down strategy, we achieved an expected 18% increase in points per play.',
           imageUrl:
-            'https://www.dropbox.com/scl/fi/vv0s9z7wvxvnxdkv1wies/Optimization.jpg?rlkey=7exucrqfxvrfda102qye3f53z&st=iefflkvh&dl=1',
+            'https://www.dropbox.com/scl/fi/dmrf8zqfx425bk680t47c/MLOpt.png?rlkey=8atdkmr8q9g2v5k6tx4gindwz&st=q4y9xakd&dl=1',
           link: 'https://www.linkedin.com/in/alexanderpero/details/projects/',
         },
       ],
