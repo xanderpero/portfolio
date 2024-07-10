@@ -120,7 +120,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.dropbox.com/scl/fi/89uw4lev4mnipp34y2gcb/Apr2024Resume.pdf?rlkey=ql56lrc3zksl9qkvzfcier489&st=1o83f6xw&dl=1', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.dropbox.com/scl/fi/p1al2dppo5oneqowf9w9v/XanderPero_Resume.pdf?rlkey=99lk41hba1puz8s631v26aizp&st=036tzpbl&dl=1', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
