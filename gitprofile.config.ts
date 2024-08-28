@@ -131,7 +131,7 @@ const CONFIG = {
     'Git',
     'Machine Learning',
     'Deep Learning',
-    'Optimization,
+    'Optimization',
     'DataBricks',
     'Pycharm',
     'AWS',
