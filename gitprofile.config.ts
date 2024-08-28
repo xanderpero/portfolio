@@ -129,6 +129,9 @@ const CONFIG = {
     'Julia/JuMP',
     'SQL',
     'Git',
+    'Machine Learning',
+    'Deep Learning',
+    'Optimization,
     'DataBricks',
     'Pycharm',
     'AWS',
@@ -141,7 +144,7 @@ const CONFIG = {
       company: 'MIT Sloan | MFS Investment Management',
       position: 'Capstone Project | Data Science Intern',
       from: 'February 2024',
-      to: 'Present',
+      to: 'August 2024',
       companyLink: '',
     },
     {
@@ -172,7 +175,7 @@ const CONFIG = {
       institution: 'Massachusetts Institute of Technology Sloan',
       degree: 'Master of Business Analytics',
       from: 'August 2023',
-      to: 'Present',
+      to: 'August 2024',
     },
     {
       institution: 'University of Illinois at Urbana-Champaign',
